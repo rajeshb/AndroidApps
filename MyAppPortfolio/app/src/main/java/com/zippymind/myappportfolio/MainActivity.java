@@ -38,9 +38,14 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    /** Called when the user touches the button */
-    public void sendMessage(View view) {
+    /**
+     * Called when the user clicks on any of the buttons
+     *
+     * In future, these buttons will launch different projects
+     **/
+    public void buttonClicked(View view) {
+        String msg = getString(R.string.msg_toast, ((Button)view).getText());
         // Display a short length toast, for now
-        Toast.makeText(getApplicationContext(), "This button will launch " + ((Button)view).getText().toString(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
     }
 }

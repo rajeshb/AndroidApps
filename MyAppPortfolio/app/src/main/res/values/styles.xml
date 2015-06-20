@@ -5,4 +5,12 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:onClick">buttonClicked</item>
+        <item name="android:background">#F08C35</item>
+        <item name="android:width">200dp</item>
+    </style>
 </resources>
