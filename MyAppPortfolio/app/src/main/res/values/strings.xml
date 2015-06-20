@@ -8,5 +8,5 @@
     <string name="build_it_bigger">BUILD IT BIGGER</string>
     <string name="xyz_reader">XYZ READER</string>
     <string name="capstone">CAPSTONE: MY OWN APP</string>
-    <string name="msg_toast">This button will launch : %1$s</string>
+    <string name="msg_toast">This button will launch %1$s</string>
 </resources>
